@@ -53,7 +53,7 @@ function initials(str) {
         break; // Stop when we reach our max
       }
       wasSpace = 0; // Eat the rest of the name upon next iterations
-      output += str[i] + '.';
+      output += str[i].toUpperCase() + '.'; // Append to output
     }
   }
 
